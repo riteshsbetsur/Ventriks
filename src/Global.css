@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#UIBlock{
+  width: 100%;
+  height: auto;
+}
+#UIBlock article{
+  width: 90%;
+  height: inherit;
+  margin: 0 auto;
+}
+/* Search and filter section */
+#searchBarBlock{
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5vh 0 2vh 0 ;
+}
+.SearchFilter {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  outline: none;
+}
+#countryId {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+/* Table */
+table{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#universityDetails {
+  margin-top: 1rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#universityDetails th,
+#universityDetails td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+#universityDetails th {
+  background-color: rgba(49, 49, 49, 0.808);
+  color: white;
+}
+
+#star_button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #aaa;
+}
+
+#star_button.active {
+  color: red;
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.prev-btn,
+.next-btn {
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.prev-btn:disabled,
+.next-btn:disabled {
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+/* Favorites section */
+#FavTitle {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+#fav_ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#fav_li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+#delete_ico {
+  color: #aaa;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#delete_ico:hover {
+  color: #f44336;
+}
